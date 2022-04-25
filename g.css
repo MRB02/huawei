@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400&display=swap');
+:root {
+    --black: #000000;
+    --white: whitesmoke;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: .2s;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+}
+
+html {
+    font-size: 60%;
+}
+
+header {
+    width: 100vw;
+    height: auto;
+    display: block;
+}
+
+header .header-top {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background-color: var(--black);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+header .header-top a {
+    color: var(--white);
+    margin: 0 2rem 0 0;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+header .header-top a:focus {
+    background-color: white;
+    color: #333;
+}
+
+header .header-top a i {
+    margin: 0 5px;
+}
+
+header .header-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--white);
+    padding: 2.5rem 2rem;
+}
+
+header .header-main .logo img {
+    width: 50%;
+}
+
+header .header-main .navbar-links a {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: black;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+header .header-main .search a {
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: rgb(20, 20, 20);
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+header .header-main .search i {
+    font-size: 2.2rem;
+    margin: 0 5px;
+    color: rgb(24, 23, 23);
+}
+
+header .container {
+    background-color: white;
+}
+
+#box1,
+#box2 {
+    display: none;
+}
+
+#bottom_corporate {
+    margin: 50px 5px;
+    font-size: 3rem;
+    background-color: aquamarine;
+}
+
+#bottom_world {
+    margin: 5px 5px 50px 5px;
+    font-size: 22px;
+    text-align: start;
+    background-color: aquamarine;
+}
+
+#bottom_world-title {
+    margin: 5px;
+    font-size: 3rem;
+    background-color: aquamarine;
+}
